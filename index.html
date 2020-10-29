@@ -149,7 +149,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%89DFS+%E5%89%AA%E6%9E%9D/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/idea-foomap-md/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -163,7 +163,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/10/29/%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%89DFS+%E5%89%AA%E6%9E%9D/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2020/10/29/idea-foomap-md/" class="post-title-link" itemprop="url">(idea)foomap.md</a>
         </h2>
 
         <div class="post-meta">
@@ -172,9 +172,8 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-10-29 10:34:45 / 修改时间：09:42:47" itemprop="dateCreated datePublished" datetime="2020-10-29T10:34:45+08:00">2020-10-29</time>
+              <time title="创建时间：2020-10-29 10:57:08" itemprop="dateCreated datePublished" datetime="2020-10-29T10:57:08+08:00">2020-10-29</time>
             </span>
 
           
@@ -207,7 +206,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88Java%EF%BC%89Inferred%20type%20'S'%20for%20type%20parameter%20'S'%20is%20not%20within%20its%20bound;%20should%20extend%20'java.lang.Long'%20%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%89DFS-%E5%89%AA%E6%9E%9D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -221,7 +220,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/10/29/%EF%BC%88Java%EF%BC%89Inferred%20type%20'S'%20for%20type%20parameter%20'S'%20is%20not%20within%20its%20bound;%20should%20extend%20'java.lang.Long'%20%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2020/10/29/%EF%BC%88%E7%AE%97%E6%B3%95%EF%BC%89DFS-%E5%89%AA%E6%9E%9D/" class="post-title-link" itemprop="url">（算法）DFS+剪枝</a>
         </h2>
 
         <div class="post-meta">
@@ -230,16 +229,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-10-29 10:34:45" itemprop="dateCreated datePublished" datetime="2020-10-29T10:34:45+08:00">2020-10-29</time>
+              <time title="创建时间：2020-10-29 10:56:13 / 修改时间：10:56:34" itemprop="dateCreated datePublished" datetime="2020-10-29T10:56:13+08:00">2020-10-29</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-09-22 15:42:45" itemprop="dateModified" datetime="2020-09-22T15:42:45+08:00">2020-09-22</time>
-              </span>
 
           
 
@@ -252,10 +245,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="Inferred-type-‘S’-for-type-parameter-‘S’-is-not-within-its-bound-should-extend-‘java-lang-Long’-错误及解决方案"><a href="#Inferred-type-‘S’-for-type-parameter-‘S’-is-not-within-its-bound-should-extend-‘java-lang-Long’-错误及解决方案" class="headerlink" title="Inferred type ‘S’ for type parameter ‘S’ is not within its bound; should extend ‘java.lang.Long’ 错误及解决方案"></a>Inferred type ‘S’ for type parameter ‘S’ is not within its bound; should extend ‘java.lang.Long’ 错误及解决方案</h1><p><img src="C:\Users\Ym\AppData\Roaming\Typora\typora-user-images\image-20200922153837255.png" alt="image-20200922153837255"></p>
-<p>如图，在使用SpringDataJpa的repository时出现该问题，该问题其中一种网上流传比较广的是说springboot版本问题，但是这不是我遇到的问题，这里的话我是由于粗心在Repository定义时写反两个位置，如图。<img src="C:\Users\Ym\AppData\Roaming\Typora\typora-user-images\image-20200922154140107.png" alt="image-20200922154140107"></p>
-<p>因此只需要将Long放到后面即可解决该问题！</p>
-
+          
       
     </div>
 
@@ -274,7 +264,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88Java%EF%BC%89HttpServletRequest%20%20MultipartHttpServletRequest/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88Java%EF%BC%89HttpServletRequest-MultipartHttpServletRequest/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -288,7 +278,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/10/29/%EF%BC%88Java%EF%BC%89HttpServletRequest%20%20MultipartHttpServletRequest/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2020/10/29/%EF%BC%88Java%EF%BC%89HttpServletRequest-MultipartHttpServletRequest/" class="post-title-link" itemprop="url">（Java）HttpServletRequest  MultipartHttpServletRequest</a>
         </h2>
 
         <div class="post-meta">
@@ -299,7 +289,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-10-29 10:34:45 / 修改时间：09:41:35" itemprop="dateCreated datePublished" datetime="2020-10-29T10:34:45+08:00">2020-10-29</time>
+              <time title="创建时间：2020-10-29 10:55:09 / 修改时间：10:55:32" itemprop="dateCreated datePublished" datetime="2020-10-29T10:55:09+08:00">2020-10-29</time>
             </span>
 
           
@@ -378,7 +368,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/foomap/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2020/10/29/%EF%BC%88Java%EF%BC%89Inferred-type-S-for-type-parameter-S-is-not-within-its-bound-should-extend-java-lang-Long-%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -392,7 +382,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2020/10/29/foomap/" class="post-title-link" itemprop="url">未命名</a>
+            <a href="/2020/10/29/%EF%BC%88Java%EF%BC%89Inferred-type-S-for-type-parameter-S-is-not-within-its-bound-should-extend-java-lang-Long-%E9%94%99%E8%AF%AF%E5%8F%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="post-title-link" itemprop="url">（Java）Inferred type 'S' for type parameter 'S' is not within its bound; should extend 'java.lang.Long' 错误及解决方案</a>
         </h2>
 
         <div class="post-meta">
@@ -401,16 +391,10 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
+              
 
-              <time title="创建时间：2020-10-29 10:33:35" itemprop="dateCreated datePublished" datetime="2020-10-29T10:33:35+08:00">2020-10-29</time>
+              <time title="创建时间：2020-10-29 10:53:55 / 修改时间：10:54:07" itemprop="dateCreated datePublished" datetime="2020-10-29T10:53:55+08:00">2020-10-29</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-10-10 11:02:54" itemprop="dateModified" datetime="2020-10-10T11:02:54+08:00">2020-10-10</time>
-              </span>
 
           
 
@@ -423,7 +407,9 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="FooMap"><a href="#FooMap" class="headerlink" title="FooMap"></a>FooMap</h1><h2 id="功能"><a href="#功能" class="headerlink" title="功能"></a>功能</h2><p>· 能够记录</p>
+          <h1 id="Inferred-type-‘S’-for-type-parameter-‘S’-is-not-within-its-bound-should-extend-‘java-lang-Long’-错误及解决方案"><a href="#Inferred-type-‘S’-for-type-parameter-‘S’-is-not-within-its-bound-should-extend-‘java-lang-Long’-错误及解决方案" class="headerlink" title="Inferred type ‘S’ for type parameter ‘S’ is not within its bound; should extend ‘java.lang.Long’ 错误及解决方案"></a>Inferred type ‘S’ for type parameter ‘S’ is not within its bound; should extend ‘java.lang.Long’ 错误及解决方案</h1><p><img src="C:\Users\Ym\AppData\Roaming\Typora\typora-user-images\image-20200922153837255.png" alt="image-20200922153837255"></p>
+<p>如图，在使用SpringDataJpa的repository时出现该问题，该问题其中一种网上流传比较广的是说springboot版本问题，但是这不是我遇到的问题，这里的话我是由于粗心在Repository定义时写反两个位置，如图。<img src="C:\Users\Ym\AppData\Roaming\Typora\typora-user-images\image-20200922154140107.png" alt="image-20200922154140107"></p>
+<p>因此只需要将Long放到后面即可解决该问题！</p>
 
       
     </div>
